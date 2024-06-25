@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "mall-name": "Pavilion Bukit Bintang",
+        "mall-state": "Kuala Lumpur"
+    },
+    {
+        "id": 2,
+        "mall-name": "Suria KLCC",
+        "mall-state": "Kuala Lumpur"
+    },
+    {
+        "id": 3,
+        "mall-name": "Pavilion Bukit Jalil",
+        "mall-state": "Kuala Lumpur"
+    },
+    {
+        "id": 4,
+        "mall-name": "Pavilion Damansara Heights",
+        "mall-state": "Kuala Lumpur"
+    },
+    {
+        "id": 5,
+        "mall-name": "Queensbay Mall",
+        "mall-state": "Pulau Pinang"
+    }
+]
