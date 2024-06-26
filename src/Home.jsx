@@ -6,7 +6,7 @@ import Header from "./components/header/Headers";
 import Searchbar from "./components/searchbar/Searchbar";
 import SearchResults from "./components/searchbar/SearchResults";
 
-import ShowResultHeader from "./components/showResult/ShowResultHeader";
+import ShowResultMain from "./components/showResult/ShowResultMain"
 
 export default function Home() {
     /*const [darkMode, setDarkMode] = useState(false);
@@ -84,7 +84,10 @@ export default function Home() {
                 {isShowingMallText && <h1 className="font-bold text-2xl text-center mt-10">No mall has been selected. Please search for one.</h1>}
 
                 {/*Everything after mall has been selected are below */}
-                <ShowResultHeader mallName={selectedMallName} mallState={selectedMallState} />
+                <ShowResultMain
+                    mallName={selectedMallName}
+                    mallState={selectedMallState}
+                />
             </div>
         </>
     );
