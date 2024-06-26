@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
+import Malls from "./data/malls.json";
 
 import Header from "./components/header/Headers";
 
 import Searchbar from "./components/searchbar/Searchbar";
 import SearchResults from "./components/searchbar/SearchResults";
 
-import Malls from "./data/malls.json";
-
+import ShowResultHeader from "./components/showResult/ShowResultHeader";
 
 export default function Home() {
     /*const [darkMode, setDarkMode] = useState(false);
@@ -24,20 +24,47 @@ export default function Home() {
     })*/
 
     const [filteredMalls, setFilteredMalls] = useState([]);
-    const [inputValue, setInputValue] = useState("");
+    const [searchBarMallinputValue, setSearchBarMallInputValue] = useState("");
     const [isShowingMallText, setIsShowingMallText] = useState(true);
 
-    function onChangeInput(e) {
+    const [selectedMallId, setSelectedMallId] = useState(null);
+    const [selectedMallName, setSelectedMallName] = useState("");
+    const [selectedMallState, setSelectedMallState] = useState("");
 
-        // Hide the Choose mall text
+
+
+    function handleMallClick(id) {
+        const selectedMall = Malls.find(mall => mall.id === id);
+
+        if (selectedMall) {
+            setSelectedMallName(selectedMall["mall-name"]);
+            setSelectedMallId(selectedMall.id);
+            setSelectedMallState(selectedMall["mall-state"]);
+
+            console.log("Selected Mall Name: " + selectedMall["mall-name"]);
+            console.log("Selected Mall ID: " + selectedMall.id);
+
+            // Reset the searchbar to be no-text. This also automatically close the search result component
+            setSearchBarMallInputValue("");
+            setIsShowingMallText(false);
+        }
+    }
+
+    function onChangeInputSearchbarMalls(e) {
+
+        // Hide the Choose mall text (none choose)
         setIsShowingMallText(false);
 
         const value = e.target.value.trim().toLowerCase();
-        setInputValue(value);
+        setSearchBarMallInputValue(value);
 
         if (value === "") {
             setFilteredMalls();
-            setIsShowingMallText(true);
+
+            // Only show the Please choose mall text if there's no mall being selected
+            if (selectedMallId === null) {
+                setIsShowingMallText(true);
+            }
         } else {
             const filtered = Malls.filter(mall =>
                 mall["mall-name"].toLowerCase().includes(value) ||
@@ -51,10 +78,13 @@ export default function Home() {
         <>
             <Header />
             <div className="max-w-[1200px] mx-auto mt-10 px-5">
-                <Searchbar placeholder={"Search malls here..."} value={inputValue} onChange={onChangeInput} />
-                {inputValue && <SearchResults filteredMalls={filteredMalls} />}
+                <Searchbar placeholder={"Search malls here..."} value={searchBarMallinputValue} onChange={onChangeInputSearchbarMalls} />
+                {searchBarMallinputValue && <SearchResults filteredMalls={filteredMalls} onMallClick={handleMallClick} />}
+
                 {isShowingMallText && <h1 className="font-bold text-2xl text-center mt-10">No mall has been selected. Please search for one.</h1>}
 
+                {/*Everything after mall has been selected are below */}
+                <ShowResultHeader mallName={selectedMallName} mallState={selectedMallState} />
             </div>
         </>
     );
