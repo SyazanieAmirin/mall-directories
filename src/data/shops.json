@@ -1,0 +1,14 @@
+[
+    {
+        "mall_id": 1,
+        "category": "food",
+        "shops": [
+            {
+                "shop_id": 1,
+                "name": "The Chicken Rice Shop",
+                "level": 5,
+                "lot": 21
+            }
+        ]
+    }
+]
