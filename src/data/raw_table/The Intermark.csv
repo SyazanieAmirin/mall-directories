@@ -1,0 +1,85 @@
+Name,Level,Lot,Near (Left),Near (Right),Categories,Also Near,Mall ID
+Sports Direct,1,19,,GadgetHub,Sports,,6
+GadgetHub,1,31,Sports Direct,,Technology,,6
+Huckleberry Petit,1,,Sports Direct,,Food,,6
+Big Pharmacy,1,16,,,Healthcare,,6
+Tsutaya Bookstore,1,,,Big Pharmacy,Books,,6
+La Perna,1,10,Tsutaya Bookstore,,Jewellery,Toilet,6
+S. Stella,1,,,S. Stella,Jewellery,,6
+Teazzi,1,30,S. Stella,GadgetHub,Food,,6
+Watsons,1,25,Sports Direct,Bacarat,Healthcare,,6
+Bacarat,1,26,Watsons,,Clothing,,6
+Cemboja,1,28,,MST Golf,Clothing,,6
+MST Golf,1,1,Cemboja,,Sports,Lift,6
+Axis Lounge,,,,,Miscellaneous ,,6
+,,,,,,,
+Oriental Landmark,G,1,,Starbucks,Food,,6
+Starbucks,G,2,Oriental Landmark,,Food,Lift,6
+Kenshin Kaiseki,G,3A,Starbucks,,Food,Toilet,6
+Hanare,G,,Kenshin Kaiseki,,Food,,6
+Leaf's Mark,G,7,Hanare,,Food,,6
+Ristorante Porto Romano,G,,Leaf's Mark,Grandmama's,Food,Toilet,6
+Grandmama's,G,12,Ristorante Porto Romano,In Colonial,Food,,6
+Paul,G,18,Grandmama's,KFC,Food,,6
+In Colonial,G,,Grandmama's,Salad Atelier,Food,,6
+Salad Atelier,G,,In Colonial,McDonald's ,Food,,6
+McDonald's ,G,17,Salad Atelier,Nando's,Food,,6
+Nando's,G,22,McDonald's ,KFC,Food,,6
+KFC,G,21,Nando's,,Food,,6
+Bashujiayan,G,"19, 19A, 19B",KFC,Dome,Food,,6
+Dome,G,,,Bashujiayan,Food,Main Entrance,6
+,,,,,,,
+GMT Currency Exchange,C,,,Wing Sing Station,Miscellaneous,,6
+Wing Sing Station,C,11,GMT Currency Exchange,Grizzly,Jewellery,,6
+Grizzly,C,,Wing Sing Station,Visionworks,Grizzly,,6
+Visionworks,C,13,Grizzly,Jeeves,Eyecare,,6
+Jeeves,C,,Visionworks,myNews,Clothing,,6
+myNews,C,,Jeeves,Guardian,Covenience Store,,6
+Guardian,C,"18,19",myNews,Dunkin' Donuts,Beauty & Personal Care,,6
+Dunkin' Donuts,C,20,Guardian,Boost Juice Bars,Food,,6
+Boost Juice Bars,C,,Dunkin' Donuts,San Francisco Coffee,Food,,6
+San Francisco Coffee,C,2,Boost Juice Bars,Family Mart,Food,"Toilet, Lift",6
+Family Mart,C,6,San Francisco Coffee,Living Circles Concept,Covenience Store,"Toilet, Lift",6
+Cauli & Rice,C,1,Boost Juice Bars,San Francisco Coffee,Food,,6
+Cafe Mesra,C,,Cauli & Rice,,Food,,6
+Living Circles Concept,C,,Living Circles Concept,Aeon Wellness,Household Items,,6
+Aeon Wellness,C,8,Living Circles Concept,,Healthcare,,6
+Secret Recipe,C,,Aeon Wellness,Grizzly,Food,,6
+,,,,,,,
+The Little Gym,2,2,Flyproject,,Miscellaneous,Lift,6
+Flyproject,2,1,,The Little Gym,Miscellaneous,,6
+Oriental Signature,2,"10, 11",Carven Ong,Flyproject,Beauty & Personal Care,,6
+Carven Ong,2,9,,Oriental Signature,Clothing,,6
+HM Handicrafts,2,,,Carven Ong,Household Items,"Toilet, Lift",6
+Art Cut Saloon,2,,Kingsmen Barbershop,HM Handicrafts,Beauty & Personal Care,,6
+Kingsmen Barbershop,2,7,Jo Nails & Spa,Art Cut Saloon,Beauty & Personal Care,,6
+Jo Nails & Spa,2,6,,Kingsmen Barbershop,Beauty & Personal Care,,6
+Onsemiro,2,3A,Ramen Seirock-Ya,,Food,,6
+Ramen Seirock-Ya,2,3B,Groom Artistry,Onsemiro,Food,,6
+Groom Artistry,2,,The Little Gym,Ramen Seirock-Ya,Beauty & Personal Care,,6
+,,,,,,,6
+Primrose Hill,3,1,Body Perfect,,Miscellaneous,"Toilet, Lift",6
+Body Perfect,3,,BMF,Primrose Hill,Beauty & Personal Care,,6
+Klinik Segara,3,,Homemade Carpets,,Miscellaneous,,6
+Homemade Carpets,3,,,Klinik Segara,Household Items,,6
+Thurai Dental Surgery,3,16,Klinik Segara,BMF,Miscellaneous,,6
+BMF,3,18,Thurai Dental Surgery,Body Perfect,Beauty & Personal Care,,6
+,,,,,,,
+Subway,LC,16,Farm House Kitchen,Bonjour Garden,Food,,6
+Jaya Grocer,LC,,Bonjour Garden,,Anchor,,6
+Bonjour Garden,LC,,Jaya Grocer,Subway,Food,,6
+Tenkai,LC,,Daily Express,Dodo Korea,Food,Lift,6
+Dodo Korea,LC,8,Tenkai,,Food,,6
+Farm House Kitchen,LC,,Chicken Rice + Mee,Subway,Food,,6
+Daily Express,LC,,Jaya Grocer,Tenkai,Food,,6
+Arababa,LC,,Dodo Korea,Sizzling Hot Plate,Food,"Surau, Toilet",6
+Sizzling Hot Plate,LC,18,Arababa,,Food,,6
+Hameed's,LC,,Arababa,Penyet Express,Food,,6
+Penyet Express,LC,12,Hameed's,MA YI LAN Ramen,Food,,6
+MA YI LAN Ramen,LC,,Penyet Express,Chicken Rice + Mee,Food,,6
+Chicken Rice + Mee,LC,,MA YI LAN Ramen,Farm House Kitchen,Food,,6
+Chagee,LC,11,Hameed's,MA YI LAN Ramen,Food,,6
+Soya Soya,LC,,Bonjour Garden,Healtea Bar,Food,,6
+Healtea Bar,LC,"1,03A",Digital Gallery,Nature's Fusion,Food,,6
+Nature's Fusion,LC,01-01,Healtea Bar,Jaya Grocer,Food,,6
+Digital Gallery,LC,26,Healtea Bar,Soya Soya,Technology,,6

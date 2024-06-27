@@ -1,14 +1,842 @@
 [
     {
-        "mall_id": 1,
-        "category": "food",
-        "shops": [
-            {
-                "shop_id": 1,
-                "name": "The Chicken Rice Shop",
-                "level": 5,
-                "lot": 21
-            }
-        ]
+        "Name": "Sports Direct",
+        "Level": 1,
+        "Lot": 19,
+        "Near (Left)": "",
+        "Near (Right)": "GadgetHub",
+        "Categories": "Sports",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "GadgetHub",
+        "Level": 1,
+        "Lot": 31,
+        "Near (Left)": "Sports Direct",
+        "Near (Right)": "",
+        "Categories": "Technology",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Huckleberry Petit",
+        "Level": 1,
+        "Lot": "",
+        "Near (Left)": "Sports Direct",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Big Pharmacy",
+        "Level": 1,
+        "Lot": 16,
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "Healthcare",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Tsutaya Bookstore",
+        "Level": 1,
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "Big Pharmacy",
+        "Categories": "Books",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "La Perna",
+        "Level": 1,
+        "Lot": 10,
+        "Near (Left)": "Tsutaya Bookstore",
+        "Near (Right)": "",
+        "Categories": "Jewellery",
+        "Also Near": "Toilet",
+        "Mall ID": 6
+    },
+    {
+        "Name": "S. Stella",
+        "Level": 1,
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "S. Stella",
+        "Categories": "Jewellery",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Teazzi",
+        "Level": 1,
+        "Lot": 30,
+        "Near (Left)": "S. Stella",
+        "Near (Right)": "GadgetHub",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Watsons",
+        "Level": 1,
+        "Lot": 25,
+        "Near (Left)": "Sports Direct",
+        "Near (Right)": "Bacarat",
+        "Categories": "Healthcare",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Bacarat",
+        "Level": 1,
+        "Lot": 26,
+        "Near (Left)": "Watsons",
+        "Near (Right)": "",
+        "Categories": "Clothing",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Cemboja",
+        "Level": 1,
+        "Lot": 28,
+        "Near (Left)": "",
+        "Near (Right)": "MST Golf",
+        "Categories": "Clothing",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "MST Golf",
+        "Level": 1,
+        "Lot": 1,
+        "Near (Left)": "Cemboja",
+        "Near (Right)": "",
+        "Categories": "Sports",
+        "Also Near": "Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Axis Lounge",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "Miscellaneous",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "",
+        "Also Near": "",
+        "Mall ID": ""
+    },
+    {
+        "Name": "Oriental Landmark",
+        "Level": "G",
+        "Lot": 1,
+        "Near (Left)": "",
+        "Near (Right)": "Starbucks",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Starbucks",
+        "Level": "G",
+        "Lot": 2,
+        "Near (Left)": "Oriental Landmark",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Kenshin Kaiseki",
+        "Level": "G",
+        "Lot": "3A",
+        "Near (Left)": "Starbucks",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "Toilet",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Hanare",
+        "Level": "G",
+        "Lot": "",
+        "Near (Left)": "Kenshin Kaiseki",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Leaf's Mark",
+        "Level": "G",
+        "Lot": 7,
+        "Near (Left)": "Hanare",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Ristorante Porto Romano",
+        "Level": "G",
+        "Lot": "",
+        "Near (Left)": "Leaf's Mark",
+        "Near (Right)": "Grandmama's",
+        "Categories": "Food",
+        "Also Near": "Toilet",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Grandmama's",
+        "Level": "G",
+        "Lot": 12,
+        "Near (Left)": "Ristorante Porto Romano",
+        "Near (Right)": "In Colonial",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Paul",
+        "Level": "G",
+        "Lot": 18,
+        "Near (Left)": "Grandmama's",
+        "Near (Right)": "KFC",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "In Colonial",
+        "Level": "G",
+        "Lot": "",
+        "Near (Left)": "Grandmama's",
+        "Near (Right)": "Salad Atelier",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Salad Atelier",
+        "Level": "G",
+        "Lot": "",
+        "Near (Left)": "In Colonial",
+        "Near (Right)": "McDonald's",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "McDonald's",
+        "Level": "G",
+        "Lot": 17,
+        "Near (Left)": "Salad Atelier",
+        "Near (Right)": "Nando's",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Nando's",
+        "Level": "G",
+        "Lot": 22,
+        "Near (Left)": "McDonald's",
+        "Near (Right)": "KFC",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "KFC",
+        "Level": "G",
+        "Lot": 21,
+        "Near (Left)": "Nando's",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Bashujiayan",
+        "Level": "G",
+        "Lot": "19, 19A, 19B",
+        "Near (Left)": "KFC",
+        "Near (Right)": "Dome",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Dome",
+        "Level": "G",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "Bashujiayan",
+        "Categories": "Food",
+        "Also Near": "Main Entrance",
+        "Mall ID": 6
+    },
+    {
+        "Name": "",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "",
+        "Also Near": "",
+        "Mall ID": ""
+    },
+    {
+        "Name": "GMT Currency Exchange",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "Wing Sing Station",
+        "Categories": "Miscellaneous",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Wing Sing Station",
+        "Level": "C",
+        "Lot": 11,
+        "Near (Left)": "GMT Currency Exchange",
+        "Near (Right)": "Grizzly",
+        "Categories": "Jewellery",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Grizzly",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Wing Sing Station",
+        "Near (Right)": "Visionworks",
+        "Categories": "Grizzly",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Visionworks",
+        "Level": "C",
+        "Lot": 13,
+        "Near (Left)": "Grizzly",
+        "Near (Right)": "Jeeves",
+        "Categories": "Eyecare",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Jeeves",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Visionworks",
+        "Near (Right)": "myNews",
+        "Categories": "Clothing",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "myNews",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Jeeves",
+        "Near (Right)": "Guardian",
+        "Categories": "Covenience Store",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Guardian",
+        "Level": "C",
+        "Lot": "18,19",
+        "Near (Left)": "myNews",
+        "Near (Right)": "Dunkin' Donuts",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Dunkin' Donuts",
+        "Level": "C",
+        "Lot": 20,
+        "Near (Left)": "Guardian",
+        "Near (Right)": "Boost Juice Bars",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Boost Juice Bars",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Dunkin' Donuts",
+        "Near (Right)": "San Francisco Coffee",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "San Francisco Coffee",
+        "Level": "C",
+        "Lot": 2,
+        "Near (Left)": "Boost Juice Bars",
+        "Near (Right)": "Family Mart",
+        "Categories": "Food",
+        "Also Near": "Toilet, Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Family Mart",
+        "Level": "C",
+        "Lot": 6,
+        "Near (Left)": "San Francisco Coffee",
+        "Near (Right)": "Living Circles Concept",
+        "Categories": "Covenience Store",
+        "Also Near": "Toilet, Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Cauli & Rice",
+        "Level": "C",
+        "Lot": 1,
+        "Near (Left)": "Boost Juice Bars",
+        "Near (Right)": "San Francisco Coffee",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Cafe Mesra",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Cauli & Rice",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Living Circles Concept",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Living Circles Concept",
+        "Near (Right)": "Aeon Wellness",
+        "Categories": "Household Items",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Aeon Wellness",
+        "Level": "C",
+        "Lot": 8,
+        "Near (Left)": "Living Circles Concept",
+        "Near (Right)": "",
+        "Categories": "Healthcare",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Secret Recipe",
+        "Level": "C",
+        "Lot": "",
+        "Near (Left)": "Aeon Wellness",
+        "Near (Right)": "Grizzly",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "",
+        "Also Near": "",
+        "Mall ID": ""
+    },
+    {
+        "Name": "The Little Gym",
+        "Level": 2,
+        "Lot": 2,
+        "Near (Left)": "Flyproject",
+        "Near (Right)": "",
+        "Categories": "Miscellaneous",
+        "Also Near": "Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Flyproject",
+        "Level": 2,
+        "Lot": 1,
+        "Near (Left)": "",
+        "Near (Right)": "The Little Gym",
+        "Categories": "Miscellaneous",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Oriental Signature",
+        "Level": 2,
+        "Lot": "10, 11",
+        "Near (Left)": "Carven Ong",
+        "Near (Right)": "Flyproject",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Carven Ong",
+        "Level": 2,
+        "Lot": 9,
+        "Near (Left)": "",
+        "Near (Right)": "Oriental Signature",
+        "Categories": "Clothing",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "HM Handicrafts",
+        "Level": 2,
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "Carven Ong",
+        "Categories": "Household Items",
+        "Also Near": "Toilet, Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Art Cut Saloon",
+        "Level": 2,
+        "Lot": "",
+        "Near (Left)": "Kingsmen Barbershop",
+        "Near (Right)": "HM Handicrafts",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Kingsmen Barbershop",
+        "Level": 2,
+        "Lot": 7,
+        "Near (Left)": "Jo Nails & Spa",
+        "Near (Right)": "Art Cut Saloon",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Jo Nails & Spa",
+        "Level": 2,
+        "Lot": 6,
+        "Near (Left)": "",
+        "Near (Right)": "Kingsmen Barbershop",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Onsemiro",
+        "Level": 2,
+        "Lot": "3A",
+        "Near (Left)": "Ramen Seirock-Ya",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Ramen Seirock-Ya",
+        "Level": 2,
+        "Lot": "3B",
+        "Near (Left)": "Groom Artistry",
+        "Near (Right)": "Onsemiro",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Groom Artistry",
+        "Level": 2,
+        "Lot": "",
+        "Near (Left)": "The Little Gym",
+        "Near (Right)": "Ramen Seirock-Ya",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Primrose Hill",
+        "Level": 3,
+        "Lot": 1,
+        "Near (Left)": "Body Perfect",
+        "Near (Right)": "",
+        "Categories": "Miscellaneous",
+        "Also Near": "Toilet, Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Body Perfect",
+        "Level": 3,
+        "Lot": "",
+        "Near (Left)": "BMF",
+        "Near (Right)": "Primrose Hill",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Klinik Segara",
+        "Level": 3,
+        "Lot": "",
+        "Near (Left)": "Homemade Carpets",
+        "Near (Right)": "",
+        "Categories": "Miscellaneous",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Homemade Carpets",
+        "Level": 3,
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "Klinik Segara",
+        "Categories": "Household Items",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Thurai Dental Surgery",
+        "Level": 3,
+        "Lot": 16,
+        "Near (Left)": "Klinik Segara",
+        "Near (Right)": "BMF",
+        "Categories": "Miscellaneous",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "BMF",
+        "Level": 3,
+        "Lot": 18,
+        "Near (Left)": "Thurai Dental Surgery",
+        "Near (Right)": "Body Perfect",
+        "Categories": "Beauty & Personal Care",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "",
+        "Level": "",
+        "Lot": "",
+        "Near (Left)": "",
+        "Near (Right)": "",
+        "Categories": "",
+        "Also Near": "",
+        "Mall ID": ""
+    },
+    {
+        "Name": "Subway",
+        "Level": "LC",
+        "Lot": 16,
+        "Near (Left)": "Farm House Kitchen",
+        "Near (Right)": "Bonjour Garden",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Jaya Grocer",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Bonjour Garden",
+        "Near (Right)": "",
+        "Categories": "Anchor",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Bonjour Garden",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Jaya Grocer",
+        "Near (Right)": "Subway",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Tenkai",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Daily Express",
+        "Near (Right)": "Dodo Korea",
+        "Categories": "Food",
+        "Also Near": "Lift",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Dodo Korea",
+        "Level": "LC",
+        "Lot": 8,
+        "Near (Left)": "Tenkai",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Farm House Kitchen",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Chicken Rice + Mee",
+        "Near (Right)": "Subway",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Daily Express",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Jaya Grocer",
+        "Near (Right)": "Tenkai",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Arababa",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Dodo Korea",
+        "Near (Right)": "Sizzling Hot Plate",
+        "Categories": "Food",
+        "Also Near": "Surau, Toilet",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Sizzling Hot Plate",
+        "Level": "LC",
+        "Lot": 18,
+        "Near (Left)": "Arababa",
+        "Near (Right)": "",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Hameed's",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Arababa",
+        "Near (Right)": "Penyet Express",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Penyet Express",
+        "Level": "LC",
+        "Lot": 12,
+        "Near (Left)": "Hameed's",
+        "Near (Right)": "MA YI LAN Ramen",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "MA YI LAN Ramen",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Penyet Express",
+        "Near (Right)": "Chicken Rice + Mee",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Chicken Rice + Mee",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "MA YI LAN Ramen",
+        "Near (Right)": "Farm House Kitchen",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Chagee",
+        "Level": "LC",
+        "Lot": 11,
+        "Near (Left)": "Hameed's",
+        "Near (Right)": "MA YI LAN Ramen",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Soya Soya",
+        "Level": "LC",
+        "Lot": "",
+        "Near (Left)": "Bonjour Garden",
+        "Near (Right)": "Healtea Bar",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Healtea Bar",
+        "Level": "LC",
+        "Lot": "1,03A",
+        "Near (Left)": "Digital Gallery",
+        "Near (Right)": "Nature's Fusion",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Nature's Fusion",
+        "Level": "LC",
+        "Lot": "01-01",
+        "Near (Left)": "Healtea Bar",
+        "Near (Right)": "Jaya Grocer",
+        "Categories": "Food",
+        "Also Near": "",
+        "Mall ID": 6
+    },
+    {
+        "Name": "Digital Gallery",
+        "Level": "LC",
+        "Lot": 26,
+        "Near (Left)": "Healtea Bar",
+        "Near (Right)": "Soya Soya",
+        "Categories": "Technology",
+        "Also Near": "",
+        "Mall ID": 6
     }
 ]
