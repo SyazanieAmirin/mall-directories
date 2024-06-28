@@ -77,7 +77,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <div className="max-w-[1200px] mx-auto mt-10 px-5">
+            <div className="max-w-[1200px] mx-auto mt-24 px-5">
                 <Searchbar placeholder={"Search malls here..."} value={searchBarMallinputValue} onChange={onChangeInputSearchbarMalls} />
                 {searchBarMallinputValue && <SearchResults filteredMalls={filteredMalls} onMallClick={handleMallClick} />}
 

@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="flex flex-row justify-between w-full p-5 bg-black">
+        <div className="flex flex-row justify-between w-full p-5 bg-black fixed top-0">
             <h1 className="font-light tracking-[.25em] lg:tracking-[1em] text-white">MALL DIRECTORIES</h1>
 
             {/*Hamburger menu*/}

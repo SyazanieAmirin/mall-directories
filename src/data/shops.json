@@ -7,7 +7,8 @@
         "Near (Right)": "GadgetHub",
         "Categories": "Sports",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 1
     },
     {
         "Name": "GadgetHub",
@@ -17,7 +18,8 @@
         "Near (Right)": "",
         "Categories": "Technology",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 2
     },
     {
         "Name": "Huckleberry Petit",
@@ -27,7 +29,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 3
     },
     {
         "Name": "Big Pharmacy",
@@ -37,7 +40,8 @@
         "Near (Right)": "",
         "Categories": "Healthcare",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 4
     },
     {
         "Name": "Tsutaya Bookstore",
@@ -47,7 +51,8 @@
         "Near (Right)": "Big Pharmacy",
         "Categories": "Books",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 5
     },
     {
         "Name": "La Perna",
@@ -57,7 +62,8 @@
         "Near (Right)": "",
         "Categories": "Jewellery",
         "Also Near": "Toilet",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 6
     },
     {
         "Name": "S. Stella",
@@ -67,7 +73,8 @@
         "Near (Right)": "S. Stella",
         "Categories": "Jewellery",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 7
     },
     {
         "Name": "Teazzi",
@@ -77,7 +84,8 @@
         "Near (Right)": "GadgetHub",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 8
     },
     {
         "Name": "Watsons",
@@ -87,7 +95,8 @@
         "Near (Right)": "Bacarat",
         "Categories": "Healthcare",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 9
     },
     {
         "Name": "Bacarat",
@@ -97,7 +106,8 @@
         "Near (Right)": "",
         "Categories": "Clothing",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 10
     },
     {
         "Name": "Cemboja",
@@ -107,7 +117,8 @@
         "Near (Right)": "MST Golf",
         "Categories": "Clothing",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 11
     },
     {
         "Name": "MST Golf",
@@ -117,7 +128,8 @@
         "Near (Right)": "",
         "Categories": "Sports",
         "Also Near": "Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 12
     },
     {
         "Name": "Axis Lounge",
@@ -127,17 +139,8 @@
         "Near (Right)": "",
         "Categories": "Miscellaneous",
         "Also Near": "",
-        "Mall ID": 6
-    },
-    {
-        "Name": "",
-        "Level": "",
-        "Lot": "",
-        "Near (Left)": "",
-        "Near (Right)": "",
-        "Categories": "",
-        "Also Near": "",
-        "Mall ID": ""
+        "Mall ID": 6,
+        "ID": 13
     },
     {
         "Name": "Oriental Landmark",
@@ -147,7 +150,8 @@
         "Near (Right)": "Starbucks",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 14
     },
     {
         "Name": "Starbucks",
@@ -157,7 +161,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 15
     },
     {
         "Name": "Kenshin Kaiseki",
@@ -167,7 +172,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "Toilet",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 16
     },
     {
         "Name": "Hanare",
@@ -177,7 +183,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 17
     },
     {
         "Name": "Leaf's Mark",
@@ -187,7 +194,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 18
     },
     {
         "Name": "Ristorante Porto Romano",
@@ -197,7 +205,8 @@
         "Near (Right)": "Grandmama's",
         "Categories": "Food",
         "Also Near": "Toilet",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 19
     },
     {
         "Name": "Grandmama's",
@@ -207,7 +216,8 @@
         "Near (Right)": "In Colonial",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 20
     },
     {
         "Name": "Paul",
@@ -217,7 +227,8 @@
         "Near (Right)": "KFC",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 21
     },
     {
         "Name": "In Colonial",
@@ -227,7 +238,8 @@
         "Near (Right)": "Salad Atelier",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 22
     },
     {
         "Name": "Salad Atelier",
@@ -237,7 +249,8 @@
         "Near (Right)": "McDonald's",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 23
     },
     {
         "Name": "McDonald's",
@@ -247,7 +260,8 @@
         "Near (Right)": "Nando's",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 24
     },
     {
         "Name": "Nando's",
@@ -257,7 +271,8 @@
         "Near (Right)": "KFC",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 25
     },
     {
         "Name": "KFC",
@@ -267,7 +282,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 26
     },
     {
         "Name": "Bashujiayan",
@@ -277,7 +293,8 @@
         "Near (Right)": "Dome",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 27
     },
     {
         "Name": "Dome",
@@ -287,17 +304,8 @@
         "Near (Right)": "Bashujiayan",
         "Categories": "Food",
         "Also Near": "Main Entrance",
-        "Mall ID": 6
-    },
-    {
-        "Name": "",
-        "Level": "",
-        "Lot": "",
-        "Near (Left)": "",
-        "Near (Right)": "",
-        "Categories": "",
-        "Also Near": "",
-        "Mall ID": ""
+        "Mall ID": 6,
+        "ID": 28
     },
     {
         "Name": "GMT Currency Exchange",
@@ -307,7 +315,8 @@
         "Near (Right)": "Wing Sing Station",
         "Categories": "Miscellaneous",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 29
     },
     {
         "Name": "Wing Sing Station",
@@ -317,7 +326,8 @@
         "Near (Right)": "Grizzly",
         "Categories": "Jewellery",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 30
     },
     {
         "Name": "Grizzly",
@@ -327,7 +337,8 @@
         "Near (Right)": "Visionworks",
         "Categories": "Grizzly",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 31
     },
     {
         "Name": "Visionworks",
@@ -337,7 +348,8 @@
         "Near (Right)": "Jeeves",
         "Categories": "Eyecare",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 32
     },
     {
         "Name": "Jeeves",
@@ -347,7 +359,8 @@
         "Near (Right)": "myNews",
         "Categories": "Clothing",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 33
     },
     {
         "Name": "myNews",
@@ -357,7 +370,8 @@
         "Near (Right)": "Guardian",
         "Categories": "Covenience Store",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 34
     },
     {
         "Name": "Guardian",
@@ -367,7 +381,8 @@
         "Near (Right)": "Dunkin' Donuts",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 35
     },
     {
         "Name": "Dunkin' Donuts",
@@ -377,7 +392,8 @@
         "Near (Right)": "Boost Juice Bars",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 36
     },
     {
         "Name": "Boost Juice Bars",
@@ -387,7 +403,8 @@
         "Near (Right)": "San Francisco Coffee",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 37
     },
     {
         "Name": "San Francisco Coffee",
@@ -397,7 +414,8 @@
         "Near (Right)": "Family Mart",
         "Categories": "Food",
         "Also Near": "Toilet, Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 38
     },
     {
         "Name": "Family Mart",
@@ -407,7 +425,8 @@
         "Near (Right)": "Living Circles Concept",
         "Categories": "Covenience Store",
         "Also Near": "Toilet, Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 39
     },
     {
         "Name": "Cauli & Rice",
@@ -417,7 +436,8 @@
         "Near (Right)": "San Francisco Coffee",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 40
     },
     {
         "Name": "Cafe Mesra",
@@ -427,7 +447,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 41
     },
     {
         "Name": "Living Circles Concept",
@@ -437,7 +458,8 @@
         "Near (Right)": "Aeon Wellness",
         "Categories": "Household Items",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 42
     },
     {
         "Name": "Aeon Wellness",
@@ -447,7 +469,8 @@
         "Near (Right)": "",
         "Categories": "Healthcare",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 43
     },
     {
         "Name": "Secret Recipe",
@@ -457,17 +480,8 @@
         "Near (Right)": "Grizzly",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
-    },
-    {
-        "Name": "",
-        "Level": "",
-        "Lot": "",
-        "Near (Left)": "",
-        "Near (Right)": "",
-        "Categories": "",
-        "Also Near": "",
-        "Mall ID": ""
+        "Mall ID": 6,
+        "ID": 44
     },
     {
         "Name": "The Little Gym",
@@ -477,7 +491,8 @@
         "Near (Right)": "",
         "Categories": "Miscellaneous",
         "Also Near": "Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 45
     },
     {
         "Name": "Flyproject",
@@ -487,7 +502,8 @@
         "Near (Right)": "The Little Gym",
         "Categories": "Miscellaneous",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 46
     },
     {
         "Name": "Oriental Signature",
@@ -497,7 +513,8 @@
         "Near (Right)": "Flyproject",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 47
     },
     {
         "Name": "Carven Ong",
@@ -507,7 +524,8 @@
         "Near (Right)": "Oriental Signature",
         "Categories": "Clothing",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 48
     },
     {
         "Name": "HM Handicrafts",
@@ -517,7 +535,8 @@
         "Near (Right)": "Carven Ong",
         "Categories": "Household Items",
         "Also Near": "Toilet, Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 49
     },
     {
         "Name": "Art Cut Saloon",
@@ -527,7 +546,8 @@
         "Near (Right)": "HM Handicrafts",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 50
     },
     {
         "Name": "Kingsmen Barbershop",
@@ -537,7 +557,8 @@
         "Near (Right)": "Art Cut Saloon",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 51
     },
     {
         "Name": "Jo Nails & Spa",
@@ -547,7 +568,8 @@
         "Near (Right)": "Kingsmen Barbershop",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 52
     },
     {
         "Name": "Onsemiro",
@@ -557,7 +579,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 53
     },
     {
         "Name": "Ramen Seirock-Ya",
@@ -567,7 +590,8 @@
         "Near (Right)": "Onsemiro",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 54
     },
     {
         "Name": "Groom Artistry",
@@ -577,17 +601,8 @@
         "Near (Right)": "Ramen Seirock-Ya",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
-    },
-    {
-        "Name": "",
-        "Level": "",
-        "Lot": "",
-        "Near (Left)": "",
-        "Near (Right)": "",
-        "Categories": "",
-        "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 55
     },
     {
         "Name": "Primrose Hill",
@@ -597,7 +612,8 @@
         "Near (Right)": "",
         "Categories": "Miscellaneous",
         "Also Near": "Toilet, Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 56
     },
     {
         "Name": "Body Perfect",
@@ -607,7 +623,8 @@
         "Near (Right)": "Primrose Hill",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 57
     },
     {
         "Name": "Klinik Segara",
@@ -617,7 +634,8 @@
         "Near (Right)": "",
         "Categories": "Miscellaneous",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 58
     },
     {
         "Name": "Homemade Carpets",
@@ -627,7 +645,8 @@
         "Near (Right)": "Klinik Segara",
         "Categories": "Household Items",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 59
     },
     {
         "Name": "Thurai Dental Surgery",
@@ -637,7 +656,8 @@
         "Near (Right)": "BMF",
         "Categories": "Miscellaneous",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 60
     },
     {
         "Name": "BMF",
@@ -647,17 +667,8 @@
         "Near (Right)": "Body Perfect",
         "Categories": "Beauty & Personal Care",
         "Also Near": "",
-        "Mall ID": 6
-    },
-    {
-        "Name": "",
-        "Level": "",
-        "Lot": "",
-        "Near (Left)": "",
-        "Near (Right)": "",
-        "Categories": "",
-        "Also Near": "",
-        "Mall ID": ""
+        "Mall ID": 6,
+        "ID": 61
     },
     {
         "Name": "Subway",
@@ -667,7 +678,8 @@
         "Near (Right)": "Bonjour Garden",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 62
     },
     {
         "Name": "Jaya Grocer",
@@ -677,7 +689,8 @@
         "Near (Right)": "",
         "Categories": "Anchor",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 63
     },
     {
         "Name": "Bonjour Garden",
@@ -687,7 +700,8 @@
         "Near (Right)": "Subway",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 64
     },
     {
         "Name": "Tenkai",
@@ -697,7 +711,8 @@
         "Near (Right)": "Dodo Korea",
         "Categories": "Food",
         "Also Near": "Lift",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 65
     },
     {
         "Name": "Dodo Korea",
@@ -707,7 +722,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 66
     },
     {
         "Name": "Farm House Kitchen",
@@ -717,7 +733,8 @@
         "Near (Right)": "Subway",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 67
     },
     {
         "Name": "Daily Express",
@@ -727,7 +744,8 @@
         "Near (Right)": "Tenkai",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 68
     },
     {
         "Name": "Arababa",
@@ -737,7 +755,8 @@
         "Near (Right)": "Sizzling Hot Plate",
         "Categories": "Food",
         "Also Near": "Surau, Toilet",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 69
     },
     {
         "Name": "Sizzling Hot Plate",
@@ -747,7 +766,8 @@
         "Near (Right)": "",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 70
     },
     {
         "Name": "Hameed's",
@@ -757,7 +777,8 @@
         "Near (Right)": "Penyet Express",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 71
     },
     {
         "Name": "Penyet Express",
@@ -767,7 +788,8 @@
         "Near (Right)": "MA YI LAN Ramen",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 72
     },
     {
         "Name": "MA YI LAN Ramen",
@@ -777,7 +799,8 @@
         "Near (Right)": "Chicken Rice + Mee",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 73
     },
     {
         "Name": "Chicken Rice + Mee",
@@ -787,7 +810,8 @@
         "Near (Right)": "Farm House Kitchen",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 74
     },
     {
         "Name": "Chagee",
@@ -797,7 +821,8 @@
         "Near (Right)": "MA YI LAN Ramen",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 75
     },
     {
         "Name": "Soya Soya",
@@ -807,7 +832,8 @@
         "Near (Right)": "Healtea Bar",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 76
     },
     {
         "Name": "Healtea Bar",
@@ -817,7 +843,8 @@
         "Near (Right)": "Nature's Fusion",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 77
     },
     {
         "Name": "Nature's Fusion",
@@ -827,7 +854,8 @@
         "Near (Right)": "Jaya Grocer",
         "Categories": "Food",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 78
     },
     {
         "Name": "Digital Gallery",
@@ -837,6 +865,7 @@
         "Near (Right)": "Soya Soya",
         "Categories": "Technology",
         "Also Near": "",
-        "Mall ID": 6
+        "Mall ID": 6,
+        "ID": 79
     }
 ]
